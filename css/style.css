@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    margin-top: 72px;   
+    
+}
+
+.text p{
+   display: inline-flex;
+   padding: 20px 20px 0px 30px;
+}
+
+.left{
+    position: relative;
+    display: block;
+    padding: 67px 0px 30px 0px;
+    justify-content: left;
+    float: left; 
+}
+
+.right{
+    position: relative;
+    display: block;
+    padding: 67px 0px 30px 0px;
+    justify-content: right;
+    float: right; 
+}
+
+.container{
+    padding: 0px 0px 73px 300px;
+}
+
+.box{
+    padding: 0px 300px 73px 0px;
+}
+
+.container input{
+    width: 277px;
+    height: 59px;
+}
+
+.box input{
+    width: 277px;
+    height: 59px;
+}
+
+.container p{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.box p{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+/* button{
+    background-color: blue;
+    color: white;
+    width: 277px;
+    height: 59px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    border-color: rgb(44, 44, 244);
+    border-radius: 5px;
+    margin-bottom: 50px;
+    position: fixed;
+} */
+
+
+
+label{
+   display: grid;
+   padding-top: 20px;
+}
+
+.container label{
+    display: flex;
+}
+
+.box label{
+    display: flex;
+    
+}
+
+.container img{ 
+    padding-left: 14.8px;
+    padding-bottom: 16px;
+    display: block;
+  
+}
+
+.box img{ 
+    padding-left: 14.8px;
+    padding-bottom: 16px;
+    display: block;
+   
+}
+
+button{
+    all: unset;
+    background-color: blue;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    border-color: rgb(44, 44, 244);
+    border-radius: 5px;
+    width: 277px;
+    height: 59px;
+    margin-top: 1100px;
+    margin-bottom: 50px;
+    position: absolute;
+    left: 525px;
+}
+
+.blue input{
+    border: 2px solid blue;
+}
